@@ -6,13 +6,17 @@ int ancho= int.Parse(Console.ReadLine());
 if (ancho <= 1) {
     int i = 1;
     while (i == 1)
-    //{
-        if (ancho <=1) { 
+    {
+
+        if (ancho <= 1)
+        {
             Console.WriteLine("Ingrese un numero diferente a 0 , a la unidad y negativo");
             ancho = int.Parse(Console.ReadLine());
-        } else
+        }
+        else
             i = 0;
     }
+    
 }
 Console.Write("Alto: ");
 int alto  = int.Parse(Console.ReadLine());

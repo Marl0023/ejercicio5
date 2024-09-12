@@ -14,7 +14,7 @@ while (o <= 10)
 {
     Console.Write($"Ingrese el valor N° {o}: ");
     lista2 = int.Parse(Console.ReadLine());
-    sumaLista2 += sumaLista2;
+    sumaLista2 += lista2;
     o++;
 }
 if (sumaLista1 == sumaLista2)
